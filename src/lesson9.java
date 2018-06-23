@@ -7,7 +7,7 @@ public class lesson9 {
                 System.out.println();
             }
         }*/
-        int A = -1, B = 6;
+        /*int A = -1, B = 6;
         for (int i = A; i < B; i++)
             System.out.println(func(i));
     }
@@ -24,6 +24,29 @@ public class lesson9 {
             default:
                 A = 0;
         }
-        return A;
+        return A; */
+   /* Task3();*/
+
     }
+       /* public static void Task3() {
+            int A = 1, B = 51;
+            for (int i = A; i < B; i++) {
+                if (i % 3 == 0) {
+                    System.out.println(i + " делится на 3");
+                }
+                if (i % 5 == 0) {
+                    System.out.println(i + " делится на 5");
+                }
+            }
+
+        }*/
+       public static int arifSum(int a1, int d, int n) {
+           int sum = 0;
+           int a1 = 1, d = 2, n = 3;
+           for (int i = 1, a =a 1; i <= n; i++, a+=d) {
+               sum += a;
+           }
+               return sum;
+       }
+
 }
