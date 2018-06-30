@@ -26,7 +26,8 @@ public class lesson9 {
         }
         return A; */
    /* Task3();*/
-
+        arifSum(1,1,10);
+        System.out.println(arifSum(1,2,10));
     }
        /* public static void Task3() {
             int A = 1, B = 51;
@@ -42,11 +43,10 @@ public class lesson9 {
         }*/
        public static int arifSum(int a1, int d, int n) {
            int sum = 0;
-           int a1 = 1, d = 2, n = 3;
-           for (int i = 1, a =a 1; i <= n; i++, a+=d) {
+           for (int i = 1, a = a1; i <= n; i++, a+=d) {
                sum += a;
            }
-               return sum;
+           return sum;
        }
 
 }
